@@ -13,5 +13,5 @@ def introspection_info(obj):
     full_inf.update(properties)
     return  full_inf
 
-number_info = introspection_info(Gg)
+number_info = introspection_info(42)
 print(number_info)
